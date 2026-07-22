@@ -27,8 +27,8 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 600,
       "messages": [
           "I KEEP SMP 24/7 MADE BY SHUBHAM"
@@ -52,13 +52,13 @@
     },
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 90000
     }
   },
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
